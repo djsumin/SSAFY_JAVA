@@ -25,6 +25,7 @@ public class TestController1 {
 	@ResponseBody
 	@GetMapping("/rest1/test2")
 	public String test2() {
+		
 		return "hi rest";
 
 	}
